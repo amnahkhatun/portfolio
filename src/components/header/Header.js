@@ -18,7 +18,7 @@ function Header() {
         <label className="menu-icon" htmlFor="menu-btn">
           <span className="navicon"></span>
         </label>
-        <ul className="menu">
+        <ul className="menu" style={{backgroundColor : '#1F2833'}}>
           <li>
             <a href="#skills">Skills</a>
           </li>
@@ -28,20 +28,16 @@ function Header() {
             </li>
           }
           <li>
-            <a href="#opensource">Open Source</a>
+            <a href="#opensource">Projects</a>
           </li>
-          <li>
-            <a href="#projects">Projects</a>
-          </li>
+         
           <li>
             <a href="#achievements">Achievements</a>
           </li>
           <li>
             <a href="#blogs">Blogs</a>
           </li>
-          <li>
-            <a href="#talks">Talks</a>
-          </li>
+          
           <li>
             <a href="#contact">Contact Me</a>
           </li>

@@ -19,7 +19,7 @@ import Profile from "./profile/Profile";
 export default class Main extends Component {
   render() {
     return (
-      <div>
+      <div >
         <Header />
         <Greeting />
         <Skills />

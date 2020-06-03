@@ -1,10 +1,10 @@
 .profile-image {
   border-radius: 50%;
-  border: 0.5rem solid #6c63ff;
+  border: 0.5rem solid #45A29E;
   margin-left: auto;
-  width: 100%;
+  width: 120%;
   max-width: 350px;
-  height: auto;
+  height: 80%;
 }
 
 .profile-image:hover {
@@ -16,6 +16,7 @@
   margin: 0;
   font-size: 40px;
   font-weight: 400;
+  color :#66FCF1;
 }
 
 .location-div {
@@ -44,11 +45,14 @@
 .bio-text {
   line-height: 30px;
   font-size: 22px;
+  color : white;
+
 }
 
 .desc-prof {
   line-height: 45px;
   font-size: 19px;
+  color : white;
 }
 
 @media (max-width: 768px) {
@@ -64,6 +68,7 @@
 
   .bio-text {
     font-size: 16px;
+    color : white;
   }
 
   .image-content-profile {
@@ -75,7 +80,9 @@
   .desc-prof {
     line-height: 30px;
     font-size: 16px;
+    color : white;
   }
+ 
 
   .profile-image {
     margin-left: auto;
@@ -94,5 +101,6 @@
     padding-bottom: 1rem;
     font-size: 32px;
     text-align: center;
+    color: #66FCF1;
   }
 }

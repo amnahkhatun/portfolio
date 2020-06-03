@@ -26,5 +26,12 @@
 }
 
 .subTitle {
-  color: #868e96;
+  color: white;
+}
+.subTitle-exp {
+  color: black;
+}
+
+.main-header {
+  background-color: #1F2833
 }

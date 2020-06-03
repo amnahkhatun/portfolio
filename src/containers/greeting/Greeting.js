@@ -27,9 +27,9 @@ export default function Greeting() {
             </div>
           </div>
         </div>
-        <div className="greeting-image-div">
-          <img alt="saad sitting on table" src={require("../../assets/images/manOnTable.svg")}></img>
-        </div>
+        {/* <div className="greeting-image-div">
+          <img alt="amnah sitting on table" src={require("../../assets/images/female-developer2.png")}></img>
+        </div> */}
       </div>
     </div>
     </Fade>

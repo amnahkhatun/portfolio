@@ -20,13 +20,13 @@
 .header li a {
   display: block;
   padding: 20px 20px;
-  color: black;
+  color: #66FCF1;
   text-decoration: none;
 }
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #f4f4f4;
+  background-color: #45A29E;
 }
 
 .header .logo {
@@ -41,6 +41,7 @@
   font-family: 'Agustina Regular';
   font-weight: bold;
   padding: 0 10px;
+  color: #66FCF1;
 }
 
 /* menu */
@@ -63,7 +64,7 @@
 }
 
 .header .menu-icon .navicon {
-  background: #333;
+  background: #45A29E;
   display: block;
   height: 2px;
   position: relative;
@@ -73,7 +74,7 @@
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #333;
+  background: #45A29E;
   content: "";
   display: block;
   height: 100%;
